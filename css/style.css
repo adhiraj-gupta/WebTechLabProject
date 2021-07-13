@@ -1,0 +1,92 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+header{
+	background-image: url(../images/f.jpeg);
+	height: 100vh;
+	background-size: cover;
+	background-position: center;
+}
+
+ul{
+	list-style-type: none;
+	float:  right;
+	margin-top: 25px;
+}
+
+li{
+	display: inline-block;
+}
+
+ul li a{
+	text-decoration: none;
+	color:  #fff;
+	padding: 5px 20px;
+	border: 1px solid transparent;
+	transition: 0.9s ease;
+}
+
+ul li a:hover{
+	background-color: white;
+	color: black;
+}
+
+ul li.active a{
+	background-color: white;
+	color: black;
+}
+
+.logo img{
+	float: left;
+	width: 150px;
+	height: auto;
+}
+
+.main{
+	max-width: 1200px;
+	margin: auto;
+}
+
+.title{
+	position: absolute;
+	top: 50%;
+	left: 48.5%;
+	transform: translate(-25%,-25%);
+}
+
+.title h1{
+	 color: white;
+	 font-size: 70px;
+}
+
+.title p{
+	color: #fff;
+	font-size: 27px;
+	text-align: center;
+	 margin-top: 10px;
+	 margin-bottom: 30px;
+	transform: translate(-22%,-10%);
+  
+}
+
+.button{
+	position: absolute;
+	top: 70%;
+	left: 45%;
+	transform: translate(-20%,-25%);
+}
+
+.btn{
+	border: 1px solid #fff;
+	padding: 10px 30px;
+	color: white;
+	text-decoration: none;
+	transition: 0.5s ease;
+}
+
+.btn:hover{
+	background-color: white;
+	color: black;
+}
