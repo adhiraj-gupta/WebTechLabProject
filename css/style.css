@@ -90,3 +90,17 @@ ul li.active a{
 	background-color: white;
 	color: black;
 }
+
+
+.footer{
+	width: 100%;
+	text-align: center;
+	padding: 30px 0px;
+}
+
+.footer h4{
+	margin-bottom: 25px;
+	margin-top: 20px;
+	font-weight: 600;
+
+}
