@@ -84,7 +84,7 @@ main h1 {
     color: black;
 }
 
-#mission-statement {
+#aboutUs {
     font-size: 25px;
     line-height: 25px;
 	padding-left: 10px;
@@ -108,7 +108,7 @@ main h1 {
         font-size: 45px;
     }
 
-    #ourMission, #ourServices{
+    #about, #ourServices{
         display: flex;
         flex-direction: row;
     }
