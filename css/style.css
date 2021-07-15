@@ -1,6 +1,8 @@
 *{
 	margin: 0;
 	padding: 0;
+	font-family: 'Oswald', sans-serif;
+	scroll-behavior: smooth; 
 }
 
 header{
@@ -28,6 +30,13 @@ ul li a{
 	transition: 0.9s ease;
 }
 
+.registerNowBtn{
+	background-color: white;
+	color: red;
+	border-radius: 15px;
+
+}
+
 ul li a:hover{
 	background-color: white;
 	color: black;
@@ -50,10 +59,12 @@ ul li.active a{
 }
 
 .title{
+	
 	position: absolute;
-	top: 50%;
-	left: 48.5%;
-	transform: translate(-25%,-25%);
+	top: 40%;
+	left: 40%;
+	bottom: auto;
+	transform: translate(-25,-25%); 
 }
 
 .title h1{
@@ -65,8 +76,9 @@ ul li.active a{
 	color: #fff;
 	font-size: 27px;
 	text-align: center;
-	 margin-top: 10px;
-	 margin-bottom: 30px;
+	margin-left: -13%;
+	margin-top: 10px;
+	margin-bottom: 30px;
 	transform: translate(-22%,-10%);
   
 }
@@ -75,7 +87,7 @@ ul li.active a{
 	position: absolute;
 	top: 70%;
 	left: 45%;
-	transform: translate(-20%,-25%);
+	transform: translate(-25%,-25%);
 }
 
 .btn{
@@ -99,8 +111,12 @@ ul li.active a{
 }
 
 .footer h4{
-	margin-bottom: 25px;
-	margin-top: 20px;
-	font-weight: 600;
+	margin-bottom: 10px;
 
+}
+
+.icons{
+	display: flex;
+	justify-content: space-evenly;
+	margin-top: 10px;
 }
