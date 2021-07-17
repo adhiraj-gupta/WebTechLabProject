@@ -11,7 +11,23 @@ header{
 	background-size: cover;
 	background-position: center;
 }
+/* header marquee{
+	color: white;
+	font-size: 20px;
+} */
 
+.moveable-link  h3{
+	color: white;
+	font-size: 30px;
+	position: absolute;
+	top: 9.5%;
+	left: 45%;
+}
+
+.moveable-link marquee a{
+	color: white;
+	font-size: 20px;
+}
 ul{
 	list-style-type: none;
 	float:  right;
