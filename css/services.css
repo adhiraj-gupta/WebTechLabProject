@@ -100,7 +100,7 @@ main h1 {
 
 #toolsWeUse{
 	font-size: 50px;
-	margin-left: 50px;
+	margin-left: 10px;
 }
 
 @media all and (min-width: 900px) {
